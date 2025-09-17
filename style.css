@@ -288,33 +288,7 @@ header * {
   font-weight: 500;
 }
 /* daytime end */
-/* gallery start */
-#gallery {
-  background: url(img/offer-background.jpg) center center/cover no-repeat;
-  padding: 8rem 0 6rem;
-}
-#gallery h2 {
-  color: #fff;
-  text-align: center;
-}
-#gallery .img-gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#gallery .img-gallery img {
-  width: 280px;
-  height: 200px;
-  border-radius: 10px;
-  margin: 20px;
-  object-fit: cover;
-  opacity: 0.8;
-}
-#gallery .img-gallery img:hover {
-  opacity: 1;
-}
-/* gallery end */
+
 /* contact start */
 #contact {
   padding: 5rem 0;
@@ -516,15 +490,6 @@ textarea {
   #daytime .daytime-items h3 {
     font-size: 20px;
     margin: 10px 0;
-  }
-  #gallery .img-gallery img {
-    margin: 20px 0px;
-  }
-  .img-gallery{
-    flex-direction: column;
-  }
-  #gallery {
-    padding: 7rem 0;
   }
   #contact {
     padding: 2rem 0;
